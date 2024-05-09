@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgb(26, 26, 121);
+    background-color: rgb(239, 85, 85);
     display: flex;
     justify-content: space-around;
     
@@ -15,5 +15,32 @@ img{
 }
 
 body{
-    background-color: rgb(51, 51, 214);
+    background-color: rgb(96, 96, 224);
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+.nav{
+    display: flex;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.subtop{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.cont{
+    border:solid black;
+    border-radius: 1.2rem;
+    padding: .5rem;
+    background-color: blue;
 }
