@@ -71,6 +71,7 @@ hr{
     font-size: 30px;
     height: 20%;
     width: 100%;
+    color: blue;
 }
 .img-cities{
 height: 80%;
@@ -94,4 +95,11 @@ footer{
 .img-footer{
     width: 3rem;
 height: 3rem;
+}
+input{
+    border-radius: 1rem;
+}
+
+select{
+    border-radius: 1rem;
 }
